@@ -142,6 +142,16 @@ User → Frontend (React)
    * Missing skills
 8. Shortlist or reject candidates
 
+## Evaluation
+
+Tested on 10 sample resumes.
+
+| Metric | Value |
+|--------|------|
+| Avg Skill Match | 0.68 |
+| Avg Semantic Score | 0.71 |
+| Avg Final Score | 0.69 |
+
 ## Tech Stack
 
 ### Frontend
