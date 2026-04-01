@@ -36,9 +36,9 @@ This system addresses these issues by introducing:
 
 ## System Architecture
 
-Resume → Parsing → Skill Extraction (LLM) → Embedding →
-→ Skill Matching + Semantic Similarity → Hybrid Scoring → Ranking → Explanation → Decision
-
+<p align="center">
+  <img src="System Architecture.png" width="100%">
+</p>
 ---
 
 ## Features
