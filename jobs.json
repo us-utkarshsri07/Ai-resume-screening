@@ -8,7 +8,7 @@
   },
   
   {
-    "title": "Machine Learning",
+    "title": "Machine Learning Specialist",
     "description": "Seeking an ML Engineer to build and deploy scalable ML models. Experience with NLP, deep learning, and model optimization is preferred.",
     "skills": ["python", "machine learning", "deep learning", "nlp", "tensorflow", "pytorch"],
     "id": 2
