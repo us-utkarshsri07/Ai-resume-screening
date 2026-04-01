@@ -39,7 +39,7 @@ This system addresses these issues by introducing:
 <p align="center">
   <img src="System Architecture.png" width="100%">
 </p>
----
+
 
 ## Features
 
