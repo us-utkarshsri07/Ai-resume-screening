@@ -1,24 +1,17 @@
 [
 
   {
-    "title": "ML Engineer",
-    "description": "Looking for a Python Machine Learning Engineer with NLP and data processing experience.",
-    "skills": [
-      "python",
-      "machine learning",
-      "nlp",
-      "pandas",
-      "numpy"
-    ],
+    "title": "Machine Learning Engineer",
+    "description": "Seeking an ML Engineer to build and deploy scalable ML models. Experience with NLP, deep learning, and model optimization is preferred.",
+    "skills": ["python", "machine learning", "deep learning", "nlp", "tensorflow", "pytorch"],
     "id": 1
   },
+  
   {
-    "title": "Deep learning",
-    "description": "LSTM pytorch",
-    "skills": [
-      "pytorch"
-    ],
-    "id": 3
+    "title": "Machine Learning",
+    "description": "Seeking an ML Engineer to build and deploy scalable ML models. Experience with NLP, deep learning, and model optimization is preferred.",
+    "skills": ["python", "machine learning", "deep learning", "nlp", "tensorflow", "pytorch"],
+    "id": 2
   },
   {
     "title": "Senior Chartered Accountant",
@@ -27,6 +20,81 @@
       "excel",
       "microsoft office"
     ],
+    "id": 3
+  },
+
+  {
+    "title": "Data Scientist",
+    "description": "Looking for a Data Scientist with strong background in statistics, machine learning, and data analysis. Experience with Python, pandas, and visualization tools required.",
+    "skills": ["python", "machine learning", "statistics", "pandas", "data visualization"],
     "id": 4
+  },
+  {
+    "title": "Software Engineer",
+    "description": "Seeking a Software Engineer proficient in Java and cloud technologies. Experience with microservices architecture and DevOps practices is a plus.",
+    "skills": ["java", "cloud computing", "microservices", "devops"],
+    "id": 5
+  },
+  {
+    "title": "UX Designer",
+    "description": "Looking for a UX Designer with experience in user research, wireframing, and prototyping. Proficiency in design tools like Figma or Adobe XD is required.",
+    "skills": ["user research", "wireframing", "prototyping", "figma", "adobe xd"],
+    "id": 6
+  },
+  {
+    "title": "AI Research Intern",
+    "description": "Looking for a research intern interested in artificial intelligence, deep learning, and research papers. Should have strong fundamentals in math and ML.",
+    "skills": ["machine learning", "deep learning", "research", "python", "linear algebra"],
+    "id": 7
+  },
+
+  {
+    "title": "Financial Analyst",
+    "description": "Looking for a Financial Analyst with strong analytical skills and experience in financial modeling and reporting.",
+    "skills": ["excel", "financial modeling", "analysis", "accounting"],
+    "id": 8
+  },
+  {
+    "title": "UI/UX Designer",
+    "description": "Hiring a UI/UX Designer with experience in user research, wireframing, and design tools like Figma.",
+    "skills": ["figma", "wireframing", "user research", "prototyping"],
+    "id": 9
+  },
+
+  {
+    "title": "Data Analyst",
+    "description": "Seeking a Data Analyst proficient in SQL, data visualization, and statistical analysis to help drive data-driven decision making.",
+    "skills": ["sql", "data visualization", "statistics", "python", "excel"],
+    "id": 10
+  },
+
+   {
+    "title": "Financial Analyst",
+    "description": "Looking for a Financial Analyst with strong analytical skills and experience in financial modeling and reporting.",
+    "skills": ["excel", "financial modeling", "analysis", "accounting"],
+    "id": 13
+  },
+  {
+    "title": "UI/UX Designer",
+    "description": "Hiring a UI/UX Designer with experience in user research, wireframing, and design tools like Figma.",
+    "skills": ["figma", "wireframing", "user research", "prototyping"],
+    "id": 14
+  },
+  {
+    "title": "Digital Marketing Specialist",
+    "description": "Looking for a digital marketing expert with experience in SEO, social media marketing, and analytics tools.",
+    "skills": ["seo", "social media", "google analytics", "content marketing"],
+    "id": 15
+  },
+  {
+    "title": "Project Manager",
+    "description": "Seeking a Project Manager with experience in agile methodologies, team leadership, and project planning.",
+    "skills": ["project management", "agile", "scrum", "team leadership"],
+    "id": 16
   }
+
+
+  
+
+
 ]
