@@ -1,5 +1,9 @@
 # AI-Powered Resume Ranking & Decision Support System
 
+## Demo Video
+
+https://github.com/us-utkarshsri07/Ai-resume-Screening/Demo1 (1).mp4
+
 ## Overview
 
 This project is an AI-driven system that automates resume screening and candidate ranking. It combines Large Language Models (LLMs) and semantic embeddings to evaluate candidates based on both skill matching and contextual relevance.
