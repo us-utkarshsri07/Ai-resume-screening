@@ -4,7 +4,7 @@ https://github.com/user-attachments/assets/cb25136f-5930-4bda-a832-974e207c00c1
 
 An intelligent system that automates resume screening using Natural Language Processing and Machine Learning. It evaluates candidates based on skill matching and semantic understanding, and provides explainable rankings for better hiring decisions.
 
----
+
 ## Overview
 
 This project simulates a lightweight AI-based Applicant Tracking System (ATS). It allows recruiters to:
@@ -15,7 +15,7 @@ This project simulates a lightweight AI-based Applicant Tracking System (ATS). I
 * Understand *why* a candidate is ranked high or low
 * Make decisions (shortlist / reject)
 
----
+
 
 ## Key Features
 
@@ -41,7 +41,7 @@ This project simulates a lightweight AI-based Applicant Tracking System (ATS). I
   * Explanation
 * Shortlist / Reject actions
 
----
+
 
 ### Explainability (Important)
 
@@ -54,7 +54,7 @@ This project simulates a lightweight AI-based Applicant Tracking System (ATS). I
   * Moderate match
   * Weak match
 
----
+
 
 ## System Architecture
 
@@ -62,15 +62,17 @@ This project simulates a lightweight AI-based Applicant Tracking System (ATS). I
   <img src="System Architecture.png" width="100%">
 </p>
 
----
+
 
 ## Scoring Formula
 
-Final Score = (Skill Score × Weight) + (Semantic Score × Weight)
+> [!IMPORTANT]
+> 
+> Final Score = (Skill Score × Weight) + (Semantic Score × Weight)
+>
+> Weights are dynamically adjustable.
 
-Weights are dynamically adjustable.
 
----
 
 ## Demo Workflow
 
@@ -86,7 +88,7 @@ Weights are dynamically adjustable.
    * Missing skills
 7. Shortlist or reject candidates
 
----
+
 
 ## Tech Stack
 
@@ -110,7 +112,7 @@ Weights are dynamically adjustable.
 * PDF parsing libraries
 * JSON-based storage (no DB)
 
----
+
 
 ## Installation & Setup
 
@@ -177,7 +179,7 @@ Recruitment systems require trust and transparency.
 
 Different roles prioritize different signals (skills vs experience).
 
----
+
 
 
 ## Use Cases
@@ -187,7 +189,7 @@ Different roles prioritize different signals (skills vs experience).
 * Internal hiring automation
 * Resume filtering for startups
 
----
+
 
 ## Future Improvements
 
