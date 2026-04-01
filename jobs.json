@@ -1,0 +1,43 @@
+[
+  {
+    "title": "ML Engineer",
+    "description": "Looking for a Python Machine Learning Engineer with NLP and data processing experience.",
+    "skills": [
+      "python",
+      "machine learning",
+      "nlp",
+      "pandas",
+      "numpy"
+    ],
+    "id": 1
+  },
+  {
+    "title": "ML Engineer",
+    "description": "Looking for a Python Machine Learning Engineer with NLP and data processing experience.",
+    "skills": [
+      "python",
+      "machine learning",
+      "nlp",
+      "pandas",
+      "numpy"
+    ],
+    "id": 2
+  },
+  {
+    "title": "Deep learning",
+    "description": "LSTM pytorch",
+    "skills": [
+      "pytorch"
+    ],
+    "id": 3
+  },
+  {
+    "title": "Senior Chartered Accountant",
+    "description": "We are seeking a highly analytical and detail-oriented Chartered Accountant to oversee our financial operations, ensure regulatory compliance, and provide strategic financial guidance. In this role, you will be responsible for managing statutory audits, tax planning, and financial reporting. You will act as a key advisor to senior management, helping the organization maintain financial health while navigating complex tax laws and international accounting standards (IFRS/GAAP)",
+    "skills": [
+      "excel",
+      "microsoft office"
+    ],
+    "id": 4
+  }
+]

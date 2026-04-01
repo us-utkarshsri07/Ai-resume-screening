@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import requests
 import json
 
-# Load embedding model
+
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 
@@ -45,11 +45,11 @@ Resume:
     output = response.json()["response"]
 
     try:
-        # Extract JSON block from messy output
+        
         json_str = re.search(r"\{.*\}", output, re.DOTALL).group()
         data = json.loads(json_str)
 
-        # Normalize skills (important)
+        
         skills = data.get("skills", [])
 
         # Handle case where skills are objects instead of strings
@@ -81,25 +81,23 @@ def skill_score(job_skills, resume_skills):
 
 
 
-# ===== TEST RUN =====
 
-resume_text = parse_resume("resume.pdf")   # put a sample resume here
+resume_text = parse_resume("resume.pdf")   
 
 data = extract_with_qwen(resume_text)
 skills = data.get("skills", [])
 
 job_desc = "Looking for a Python Machine Learning Engineer with NLP experience"
 
-# Define required job skills
 job_skills = ["python", "machine learning", "nlp"]
 
-# Calculate scores
+
 s_score = skill_score(job_skills, skills)
 sem_score = similarity(job_desc, resume_text)
 
 final = 0.6 * sem_score + 0.4 * s_score
 
-# Output
+
 print("Extracted Skills:", skills)
 print("Skill Score:", s_score)
 print("Semantic Score:", sem_score)
