@@ -1,4 +1,5 @@
 [
+
   {
     "title": "ML Engineer",
     "description": "Looking for a Python Machine Learning Engineer with NLP and data processing experience.",
@@ -10,18 +11,6 @@
       "numpy"
     ],
     "id": 1
-  },
-  {
-    "title": "ML Engineer",
-    "description": "Looking for a Python Machine Learning Engineer with NLP and data processing experience.",
-    "skills": [
-      "python",
-      "machine learning",
-      "nlp",
-      "pandas",
-      "numpy"
-    ],
-    "id": 2
   },
   {
     "title": "Deep learning",
