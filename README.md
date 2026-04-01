@@ -2,35 +2,57 @@
 
 https://github.com/user-attachments/assets/cb25136f-5930-4bda-a832-974e207c00c1
 
+An intelligent system that automates resume screening using Natural Language Processing and Machine Learning. It evaluates candidates based on skill matching and semantic understanding, and provides explainable rankings for better hiring decisions.
 
+---
 ## Overview
 
-This project is an AI-driven system that automates resume screening and candidate ranking. It combines Large Language Models (LLMs) and semantic embeddings to evaluate candidates based on both skill matching and contextual relevance.
+This project simulates a lightweight AI-based Applicant Tracking System (ATS). It allows recruiters to:
 
-Unlike basic keyword filters, this system provides:
-
-* Hybrid scoring (skills + semantic similarity)
-* Explainable rankings
-* Adjustable decision weights
-* HR-style decision interface (shortlist / reject)
+* Create job roles with descriptions and skills
+* Upload multiple resumes
+* Automatically rank candidates
+* Understand *why* a candidate is ranked high or low
+* Make decisions (shortlist / reject)
 
 ---
 
-## Problem Statement
+## Key Features
 
+### Core Functionality
 
+* Resume parsing (PDF support)
+* Skill extraction using LLM (Qwen2)
+* Semantic similarity using embeddings (MiniLM)
+* Hybrid scoring system
+* Candidate ranking
+* Explainable AI outputs
 
-Traditional resume screening is:
+### HR Dashboard
 
-* Time-consuming
-* Biased toward keyword matching
-* Lacks transparency
+* Job creation module
+* Job selection dropdown (auto-fill)
+* Resume upload interface
+* Results table with:
 
-This system addresses these issues by introducing:
+  * Rank
+  * Score breakdown
+  * Missing skills
+  * Explanation
+* Shortlist / Reject actions
 
-* Semantic understanding of resumes
-* Interpretable scoring
-* Configurable evaluation criteria
+---
+
+### Explainability (Important)
+
+* Skill match %
+* Semantic match %
+* Missing skills
+* Human-readable explanation:
+
+  * Strong match
+  * Moderate match
+  * Weak match
 
 ---
 
@@ -40,33 +62,6 @@ This system addresses these issues by introducing:
   <img src="System Architecture.png" width="100%">
 </p>
 
-
-## Features
-
-### Core AI Features
-
-* LLM-based skill extraction (Qwen2)
-* Semantic similarity using embeddings (MiniLM)
-* Hybrid scoring model
-
-### Explainability
-
-* Score breakdown (skill vs semantic contribution)
-* Human-readable explanations
-* Missing skills detection
-
-### Control System
-
-* Adjustable scoring weights
-* Real-time re-ranking
-
-### Interface
-
-* Job creation module
-* Resume upload
-* Candidate ranking dashboard
-* Shortlist / Reject actions
-
 ---
 
 ## Scoring Formula
@@ -74,44 +69,6 @@ This system addresses these issues by introducing:
 Final Score = (Skill Score × Weight) + (Semantic Score × Weight)
 
 Weights are dynamically adjustable.
-
----
-
-## Tech Stack
-
-Frontend:
-
-* React (Vite)
-* Axios
-
-Backend:
-
-* FastAPI
-* Python
-
-AI Components:
-
-* Qwen2 (LLM for extraction)
-* MiniLM (sentence embeddings)
-
----
-
-## How to Run
-
-### Backend
-
-```bash
-cd backend
-uvicorn main:app --reload
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
 
 ---
 
@@ -131,6 +88,81 @@ npm run dev
 
 ---
 
+## Tech Stack
+
+### Frontend
+
+* React (Vite)
+* Axios
+
+### Backend
+
+* FastAPI
+* Python
+
+### AI / ML
+
+* Qwen2 (LLM via Ollama)
+* MiniLM (Sentence Transformers)
+
+### Other
+
+* PDF parsing libraries
+* JSON-based storage (no DB)
+
+---
+
+## Installation & Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/AI-resume-screening.git
+cd AI-resume-screening
+```
+
+---
+
+### 2. Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+```
+
+Run FastAPI server:
+
+```bash
+uvicorn main:app --reload
+```
+
+---
+
+### 3. Setup Ollama (LLM)
+
+Install Ollama and pull model:
+
+```bash
+ollama run qwen2:0.5b
+```
+
+Ensure it's running at:
+
+```
+http://localhost:11434
+```
+
+---
+
+### 4. Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+
 ## Key Design Decisions
 
 ### Why Hybrid Scoring?
@@ -147,17 +179,21 @@ Different roles prioritize different signals (skills vs experience).
 
 ---
 
+
+## Use Cases
+
+* HR resume screening
+* Campus placements
+* Internal hiring automation
+* Resume filtering for startups
+
+---
+
 ## Future Improvements
 
 * Persistent storage (DB)
 * Resume preview inside UI
 * AI-generated detailed explanations
 * Skill highlighting inside resumes
-
----
-
-## Author
-
-[Your Name]
 
 ---
