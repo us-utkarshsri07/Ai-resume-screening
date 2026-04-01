@@ -1,8 +1,6 @@
 # AI-Powered Resume Ranking & Decision Support System
 
-## Demo Video
 
-https://github.com/us-utkarshsri07/Ai-resume-Screening/Demo1 (1).mp4
 
 ## Overview
 
