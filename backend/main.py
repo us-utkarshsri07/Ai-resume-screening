@@ -38,7 +38,7 @@ UPLOAD_DIR = "resumes"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 
-# SINGLE RESUME (optional)
+# 1 resume analysis
 
 @app.post("/analyze")
 async def analyze_resume(
