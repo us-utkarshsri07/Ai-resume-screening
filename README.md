@@ -19,6 +19,10 @@ Unlike basic keyword filters, this system provides:
 
 ## Problem Statement
 
+https://github.com/user-attachments/assets/cb25136f-5930-4bda-a832-974e207c00c1
+
+
+
 Traditional resume screening is:
 
 * Time-consuming
