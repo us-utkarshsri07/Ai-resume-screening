@@ -1,6 +1,5 @@
 # AI-Powered Resume Ranking & Decision Support System
 
-## 🎥 Demo Video
 https://github.com/user-attachments/assets/cb25136f-5930-4bda-a832-974e207c00c1
 
 
