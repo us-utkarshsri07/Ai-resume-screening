@@ -14,6 +14,10 @@ This project simulates a lightweight AI-based Applicant Tracking System (ATS). I
 * Understand *why* a candidate is ranked high or low
 * Make decisions (shortlist / reject)
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-backend-green)
+![React](https://img.shields.io/badge/React-frontend-blue)
+
 ## 📌 Project Structure Explanation
 
 | Folder / File           | Purpose                                                |
