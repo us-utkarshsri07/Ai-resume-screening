@@ -1,8 +1,8 @@
 # AI-Powered Resume Ranking & Decision Support System
 
 ## 🎥 Demo Video
+https://github.com/user-attachments/assets/cb25136f-5930-4bda-a832-974e207c00c1
 
-https://github.com/us-utkarshri07/Ai-resume-screening/raw/main/Demo1%20.mp4
 
 ## Overview
 
@@ -18,8 +18,6 @@ Unlike basic keyword filters, this system provides:
 ---
 
 ## Problem Statement
-
-https://github.com/user-attachments/assets/cb25136f-5930-4bda-a832-974e207c00c1
 
 
 
