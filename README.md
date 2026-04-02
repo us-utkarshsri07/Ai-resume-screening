@@ -142,6 +142,18 @@ User → Frontend (React)
    * Missing skills
 8. Shortlist or reject candidates
 
+## UI Interface
+
+
+<p align="center">
+  <img src="frontend/src/assests/Screenshot (343).png" width="100%">
+</p>
+
+<p align="center">
+  <img src="frontend/src/assests/Screenshot (344).png" width="100%">
+</p>
+
+
 ## Evaluation
 
 > [!IMPORTANT]
