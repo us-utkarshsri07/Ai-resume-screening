@@ -160,7 +160,7 @@ User → Frontend (React)
 
 > [!IMPORTANT]
 >
-> Tested on 10 sample resumes.
+> Tested on 10 *real* resumes.
 > 
 | Metric | Value | 
 |--------|------| 
