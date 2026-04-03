@@ -142,7 +142,7 @@ User → Frontend (React)
    * Missing skills
 8. Shortlist or reject candidates
 
-## UI Interface
+## User Interface 
 
 
 <p align="center">
