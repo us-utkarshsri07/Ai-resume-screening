@@ -190,6 +190,15 @@ User → Frontend (React)
 * PDF parsing libraries
 * JSON-based storage (no DB)
 
+## Client Deliverables
+
+> [!IMPORTANT]
+>
+> Software Requirement Specification
+>
+> Test Cases  
+
+
 ## Installation & Setup
 
 ### 1. Clone Repository
